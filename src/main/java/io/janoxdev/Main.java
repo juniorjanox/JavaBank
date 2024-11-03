@@ -7,7 +7,7 @@ public class Main {
                 if (i == 5) {
                     throw new AlcanzoLimite("El for llegó a su límite en " + i);
                 }
-                System.out.println("\nEl contador inicial en: "+ i);
+                System.out.println("El contador inicial inicia en: "+ i);
             }
         } catch (AlcanzoLimite e) {
             System.out.println(e.getMessage());
